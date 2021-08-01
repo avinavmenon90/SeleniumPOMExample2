@@ -13,6 +13,8 @@ public class LoginPage {
 	WebElement email;
 	@FindBy(id="passwd") WebElement password;
 	
+	//adding new comment to check GitHub commit
+	
 	public LoginPage(WebDriver rdriver) {
 		this.ldriver = rdriver;
 	}
